@@ -18,4 +18,5 @@ func initializeRoutes(router *gin.Engine) {
 		v1.DELETE("/opening", handler.DeleteOpeningHandler)
 		v1.GET("/openings", handler.ListOpeningsHandler)
 	}
+	// Initialize swager
 }
