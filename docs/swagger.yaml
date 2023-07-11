@@ -98,4 +98,19 @@ paths:
       summary: Create Opening
       tags:
       - Openings
+  /openings:
+    get:
+      consumes:
+      - application/json
+      description: List the jobs openings
+      produces:
+      - application/json
+      responses:
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/handler.ErrorResponse'
+      summary: List Openings
+      tags:
+      - Openings
 swagger: "2.0"
