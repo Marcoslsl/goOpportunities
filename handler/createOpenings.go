@@ -13,7 +13,7 @@ import (
 // @Accept json
 // @Produce json
 // @Param request body CreateOpeningRequest true "Request body"
-// @Sucess 200 {object} CreayeOpeningResponse
+// @Sucess 200 {object} CreateOpeningResponse
 // @Failure 400 {object} ErrorResponse
 // @Failure 500 {object} ErrorResponse
 // @Router /opening [post]
